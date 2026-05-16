@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import type {} from "../typescrip/types";
 import type { Destinations } from "../typescrip/types";
 import SpaceData from "../data.json";
 import { motion } from "framer-motion";
 
-const Destination = () => {
+const Destination: React.FC = () => {
   const allDestinations = SpaceData.destinations as Destinations[];
 
   const [currentDes, setCurrentDes] = useState<number>(0);

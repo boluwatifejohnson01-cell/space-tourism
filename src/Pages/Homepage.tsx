@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const Homepage = () => {
+const Homepage: React.FC = () => {
   return (
     <div className="absolute w-full top-0 flex justify-center h-full bg-cover bg-center bg-no-repeat  bg-[url('public/background-home-mobile.jpg')] sm:bg-[url('public/background-home-tablet.jpg')] md:bg-[url('public/background-home-desktop.jpg')] sm:h-232  md:h-222 md:flex md:items-end md:justify-center">
       <div className="flex w-93.75 sm:w-3xl flex-col gap-14 pt-25 items-center sm:gap-15 sm:py-32 md:flex-row md:w-277.5 md:h-158 md:gap-85">

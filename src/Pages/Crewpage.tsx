@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from "react";
-// import CrewAMob from "../assets/Crew Image - A.png";
-// import CrewATab from "../assets/Crew Image - A1.png";
-// import CrewADesk from "../assets/Crew Image - A2.png";
+import React, { useState } from "react";
+
 import type { Crew } from "../typescrip/types";
 import SpaceAllData from "../data.json";
 import { motion } from "framer-motion";
 
-const Crewpage = () => {
+const Crewpage: React.FC = () => {
   const crewData = SpaceAllData.crew as Crew[];
 
   const [currentCrew, setCurrentCrew] = useState(0);
