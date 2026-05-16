@@ -2,13 +2,10 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import NavLogo from "../assets/Logo.png";
 import { Link, NavLink } from "react-router-dom";
-import type { SpaceData } from "../typescrip/types";
-import allData from "../data.json";
+
 import Dropdown from "./Dropdown";
 
-const Navbar = () => {
-  const data = allData as SpaceData;
-
+const Navbar: React.FC = () => {
   const [open, setOpen] = useState<boolean>(false);
 
   console.log(open);
@@ -84,7 +81,7 @@ const Navbar = () => {
             )}
           </NavLink>
           <NavLink
-            to="/Technology"
+            to="/Techlogy"
             className="relative cursor-pointer group transition-colors"
           >
             {({ isActive }) => (
@@ -159,7 +156,7 @@ const Navbar = () => {
             </NavLink>
 
             <NavLink
-              to="/Technology"
+              to="/Techlogy"
               className="relative cursor-pointer group transition-colors"
             >
               {({ isActive }) => (

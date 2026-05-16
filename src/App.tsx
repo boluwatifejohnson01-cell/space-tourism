@@ -4,7 +4,8 @@ import Homepage from "./Pages/Homepage";
 import Navbar from "./Component/Navbar";
 import Destination from "./Pages/Destination";
 import Crewpage from "./Pages/Crewpage";
-import Technology from "./Pages/Technology";
+
+import Techlogy from "./Pages/Techlogy";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/Destination" element={<Destination />} />
           <Route path="/Crew" element={<Crewpage />} />
-          <Route path="/Technology" element={<Technology />} />
+          <Route path="/Techlogy" element={<Techlogy />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 interface OpenSlide {
   ForChange: React.Dispatch<React.SetStateAction<boolean>>;
@@ -76,7 +76,7 @@ const Dropdown = ({ ForChange }: OpenSlide) => {
           </NavLink>
 
           <NavLink
-            to="/Technology"
+            to="/Techlogy"
             className="flex items-center justify-between cursor-pointer group transition-colors"
           >
             {({ isActive }) => (
