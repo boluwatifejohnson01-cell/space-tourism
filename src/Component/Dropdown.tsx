@@ -7,7 +7,7 @@ interface OpenSlide {
 
 const Dropdown = ({ ForChange }: OpenSlide) => {
   return (
-    <div className="">
+    <div className="absolute top-0 right-0">
       <div
         onClick={() => {
           ForChange(false);
