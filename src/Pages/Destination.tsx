@@ -12,7 +12,7 @@ const Destination: React.FC = () => {
   const eachDes = allDestinations[currentDes];
 
   return (
-    <section className="w-full sm:h-232 flex bg-cover bg-no-repeat bg-center bg-[url('public/background-destination-mobile.jpg')] sm:bg-[url('public/background-destination-tablet.jpg')] md:bg-[url('public/background-destination-desktop.jpg')] justify-center pt-16 sm:pt-30 md:pt-40">
+    <section className="w-full sm:h-232 flex bg-cover bg-no-repeat bg-center bg-[url('/background-destination-mobile.jpg')] sm:bg-[url('/background-destination-tablet.jpg')] md:bg-[url('/background-destination-desktop.jpg')] justify-center pt-16 sm:pt-30 md:pt-40">
       <div className="w-81.75 sm:w-172 md:w-278 flex flex-col items-center gap-9 sm:items-start">
         <p className="text-white font-normal uppercase text-[16px] font-[Barlow] tracking-widest flex gap-6 sm:text-[20px]">
           <span className="text-white/25">01</span>PICK YOUR DESTINATION

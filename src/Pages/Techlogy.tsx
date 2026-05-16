@@ -13,7 +13,7 @@ const Techlogy: React.FC = () => {
   return (
     <section
       className="w-full py-5 sm:py-0 sm:overflow-hidden
-        sm:h-232 flex justify-center bg-cover bg-no-repeat bg-center bg-[url('public/background-technology-mobile.jpg')] sm:bg-[url('public/background-technology-desktop.jpg')] md:bg-[url('public/background-technology-desktop.jpg')] transition-all ease-in-out origin-top pt-20 sm:pt-30 md:pt-40 mx-auto"
+        sm:h-232 flex justify-center bg-cover bg-no-repeat bg-center bg-[url('/background-technology-mobile.jpg')] sm:bg-[url('/background-technology-desktop.jpg')] md:bg-[url('/background-technology-desktop.jpg')] transition-all ease-in-out origin-top pt-20 sm:pt-30 md:pt-40 mx-auto"
     >
       <div className=" w-93.75 sm:w-3xl md:w-360 flex flex-col items-center gap-12 sm:items-start md:ms-30">
         <p className="text-white font-medium uppercase text-[16px] font-[Barlow] tracking-widest sm:ps-9 flex gap-6 sm:text-[20px] md:ps-0 md:text-[28px]">

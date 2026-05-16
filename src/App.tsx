@@ -4,7 +4,6 @@ import Homepage from "./Pages/Homepage";
 import Navbar from "./Component/Navbar";
 import Destination from "./Pages/Destination";
 import Crewpage from "./Pages/Crewpage";
-
 import Techlogy from "./Pages/Techlogy";
 
 function App() {

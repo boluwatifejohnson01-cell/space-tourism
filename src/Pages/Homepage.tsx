@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Homepage: React.FC = () => {
   return (
-    <div className="absolute w-full top-0 flex justify-center h-full bg-cover bg-center bg-no-repeat  bg-[url('public/background-home-mobile.jpg')] sm:bg-[url('public/background-home-tablet.jpg')] md:bg-[url('public/background-home-desktop.jpg')] sm:h-232  md:h-222 md:flex md:items-end md:justify-center">
+    <div className="absolute w-full top-0 flex justify-center h-full bg-cover bg-center bg-no-repeat  bg-[url('/background-home-mobile.jpg')] sm:bg-[url('/background-home-tablet.jpg')] md:bg-[url('/background-home-desktop.jpg')] sm:h-232  md:h-222 md:flex md:items-end md:justify-center">
       <div className="flex w-93.75 sm:w-3xl flex-col gap-14 pt-25 items-center sm:gap-15 sm:py-32 md:flex-row md:w-277.5 md:h-158 md:gap-85">
         <div className="flex flex-col gap-6 items-center md:items-start">
           <p className="text-[16px] sm:text-[26px] font-normal text-[#D0D6F9] font-[Barlow] tracking-wider sm:tracking-wider uppercase">
