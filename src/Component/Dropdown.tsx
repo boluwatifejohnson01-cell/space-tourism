@@ -15,7 +15,7 @@ const Dropdown = ({ ForChange }: OpenSlide) => {
         className={`pt-3 w-60 h-212.5 flex flex-col items-end gap-12 bg-[#0B0D17]/50 shadow-lg backdrop-blur-[80px] ps-6 pe-3 sm:hidden md:hidden`}
       >
         <img
-          src="/public/icon-close.svg"
+          src="/icon-close.svg"
           alt=""
           className="w-6 z-50 cursor-pointer"
           onClick={() => ForChange(false)}
